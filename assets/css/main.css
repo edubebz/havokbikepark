@@ -29,6 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
 body {
 	line-height: 1;
 }
@@ -101,9 +103,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -132,6 +137,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
+			#logo-top {
+				height: 150px;
+				width: 300px;
+				padding-left: 1em;
+			}
 
 		}
 
@@ -140,7 +150,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
+			#logo-top {
+				margin-top: 1em;
+				height: 125px;
+				width: 250px;
+			}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -148,7 +162,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
+			#logo-top {
+				height: 100px;
+				width: 200px;
+				padding-left: 0em;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -156,7 +174,10 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
+			#logo-top {
+				height: 90px;
+				width: 180px;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3131,8 +3152,12 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
 					border-radius: 5px;
-					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-					padding: 0 1.35em;
+					box-shadow: inset 0 0 0 2px rgba(234, 255, 0, 0.381);
+					padding: 0 1.5em;
+					font-size: 2em;
+					margin-top: 0em;
+					text-shadow: #0b3312 1px 1px 2px;
+
 				}
 
 					#header nav a[href="#menu"]:before {
@@ -3146,6 +3171,7 @@ input, select, textarea {
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
+
 					}
 
 					#header nav a[href="#menu"]:before {
@@ -3374,24 +3400,58 @@ input, select, textarea {
 
 /* Banner */
 
+#logo-top {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+		margin-left: 2em;
+    }
+    100% {
+		margin-left: 0em;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+	#logo-top {
+
+
+		margin-top: 3em;
+		display: inline;
+		width: 380px;
+		height: 140px;
+		padding-left: 2em;
+		
+	}
+	#logo-top.visible {
+		opacity: 1;
+	}
+
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 0em 0 5em 0 ;
+		background-image: url("../../images/hoon1.jpeg");
+		background-size: cover, cover;
 	}
 
 		#banner .inner {
 			margin: 0 auto;
-			width: 55em;
+			padding-top: 10%;
+			width: 30em;
+			
 		}
 
 		#banner .logo {
-			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 2s ease, -ms-transform 1s ease;
 			transition: opacity 2s ease, transform 1s ease;
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
 		}
@@ -3430,6 +3490,7 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			
 		}
 
 		#banner p {
@@ -3449,23 +3510,28 @@ input, select, textarea {
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
 			filter: blur(0);
+			
 			opacity: 1;
+			padding-top: 2em;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
-			font-weight: 200;
+			font-size: 2em;
+			font-weight: 600;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+			text-shadow: #0b3312 1px 1px 2px;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				padding: 1em 2em 8.25em 0 ;
+
+				background-image: url("../../images/hoon1.jpeg");
+				background-size:cover,
+ 				cover;
+				background-position: center,
+ 				center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3474,7 +3540,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
+				padding: 0em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
 			}
 
@@ -3487,7 +3553,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 0em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
 			}
 
@@ -3545,6 +3611,7 @@ input, select, textarea {
 
 	#wrapper > header {
 		padding: 11em 0 2.25em 0 ;
+
 	}
 
 		#wrapper > header .inner {
@@ -3566,6 +3633,8 @@ input, select, textarea {
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+			
+
 		}
 
 	@media screen and (max-width: 1280px) {
@@ -3573,9 +3642,11 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-image: url("../../images/hoon1.jpeg");
+			background-size: cover,
+ 			cover;
+			background-position: center,
+ 			0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3656,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: cover, cover;
+			background-position: center, 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3671,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto, 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -4062,8 +4133,10 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
