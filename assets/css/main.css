@@ -122,6 +122,33 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+		#logo-top {
+			animation: fadeInAnimation ease 2s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes fadeInAnimation {
+			0% {
+				opacity: 0;
+				margin-left: 2em;
+			}
+			100% {
+				margin-left: 0em;
+				opacity: 1;
+			}
+		}
+	
+		#logo-top {
+			margin-top: 0.5em;
+			display: inline;
+			width: 18em;
+			height: 8em;
+			padding-left: 1em;
+			opacity: 0;
+		}
+	
+
 /* Type */
 
 	body, input, select, textarea {
@@ -138,11 +165,10 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 			#logo-top {
-				height: 150px;
-				width: 300px;
+				height: 8em; 
+				width: 18em;
 				padding-left: 1em;
 			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -151,9 +177,9 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 			#logo-top {
-				margin-top: 1em;
-				height: 125px;
-				width: 250px;
+
+				height: 8em;
+				width: 18em;
 			}
 		}
 
@@ -163,9 +189,9 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 			#logo-top {
-				height: 100px;
-				width: 200px;
-				padding-left: 0em;
+				height: 7em;
+				width: 16em;
+				padding-left: 0px;
 			}
 		}
 
@@ -175,8 +201,8 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 			#logo-top {
-				height: 90px;
-				width: 180px;
+				height: 5em;
+				width: 12em;
 			}
 		}
 
@@ -3399,31 +3425,6 @@ input, select, textarea {
 		}
 
 /* Banner */
-
-	#logo-top {
-		animation: fadeInAnimation ease 2s;
-		animation-iteration-count: 1;
-		animation-fill-mode: forwards;
-	}
-	@keyframes fadeInAnimation {
-		0% {
-			opacity: 0;
-			margin-left: 2em;
-		}
-		100% {
-			margin-left: 0em;
-			opacity: 1;
-		}
-	}
-
-	#logo-top {
-		margin-top: 3em;
-		display: inline;
-		width: 380px;
-		height: 140px;
-		padding-left: 2em;
-		opacity: 0;
-	}
 
 	#banner {
 		padding: 0em 0 5em 0 ;
