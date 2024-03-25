@@ -3447,7 +3447,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 0em 0 5em 0 ;
-		background-image: url("../../images/hoon1.jpeg");
+		background-image: url("../../images/hoon2.png");
 		background-size: cover, cover;
 		border-bottom: solid 3px rgba(52, 148, 11, 0.356);
 	}
@@ -3537,7 +3537,7 @@ input, select, textarea {
 			#banner {
 				padding: 1em 2em 8.25em 0 ;
 
-				background-image: url("../../images/hoon1.jpeg");
+				background-image: url("../../images/hoon2.png");
 				background-size:cover,
  				cover;
 				background-position: center,
@@ -3581,6 +3581,10 @@ input, select, textarea {
 
 				#banner p {
 					font-size: 0.8em;
+				}
+				#logo-top {
+					margin-left: 2em;
+					display: inline-block;
 				}
 
 		}
@@ -3652,7 +3656,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: url("../../images/hoon1.jpeg");
+			background-image: url("../../images/hoon2.png");
 			background-size: cover,
  			cover;
 			background-position: center,
@@ -3675,6 +3679,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+
 	}
 
 	@media screen and (max-width: 736px) {
@@ -3692,6 +3698,12 @@ input, select, textarea {
 			#wrapper > header p {
 				font-size: 0.8em;
 			}
+		#logo-top {
+
+			margin-top: 2em;
+			height: 3em;
+			width: 6em;
+		}
 
 	}
 
