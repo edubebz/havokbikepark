@@ -101,8 +101,13 @@ input, select, textarea {
 	}
 
 	body {
+<<<<<<< Updated upstream
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+=======
+		background-color: #ff0000;
+		background-image: linear-gradient(to top, #000000, #000000), url("../../images/bg.jpg");
+>>>>>>> Stashed changes
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -292,13 +297,14 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 1.1em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.2em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
@@ -315,8 +321,14 @@ input, select, textarea {
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			font-size: 2em;
+			text-align: center;
+			border-bottom: solid 2px rgba(52, 148, 11, 0.356);
 		}
+	#four .inner p {
+		text-align: center;
+		font-size: 1.2em;
+	}
 
 	h2 {
 		font-size: 1.2em;
@@ -377,6 +389,7 @@ input, select, textarea {
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
+
 	}
 
 	pre {
@@ -395,7 +408,11 @@ input, select, textarea {
 
 	hr {
 		border: 0;
+<<<<<<< Updated upstream
 		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+=======
+		border-bottom: solid 2px rgba(13, 77, 26, 0.676);
+>>>>>>> Stashed changes
 		margin: 2.5em 0;
 	}
 
@@ -3049,7 +3066,11 @@ input, select, textarea {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
+<<<<<<< Updated upstream
 			background-color: #353849;
+=======
+			background-color: #282b26;
+>>>>>>> Stashed changes
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3120,7 +3141,11 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
+<<<<<<< Updated upstream
 		background-color: rgba(53, 56, 73, 0.95);
+=======
+		background-color: rgba(82,138,66,0.4);
+>>>>>>> Stashed changes
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3430,6 +3455,7 @@ input, select, textarea {
 		padding: 0em 0 5em 0 ;
 		background-image: url("../../images/hoon1.jpeg");
 		background-size: cover, cover;
+		border-bottom: solid 3px rgba(52, 148, 11, 0.356);
 	}
 
 		#banner .inner {
@@ -3676,8 +3702,13 @@ input, select, textarea {
 	}
 
 	.wrapper {
+<<<<<<< Updated upstream
 		background-color: #2e3141;
 		margin: 6.5em 0;
+=======
+		background-color: #000000;
+		margin: 0em 0;
+>>>>>>> Stashed changes
 		position: relative;
 	}
 
@@ -3871,7 +3902,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: center;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
@@ -4055,6 +4086,14 @@ input, select, textarea {
 			}
 
 		}
+
+	#banner-logo {
+		height: 3em;
+		width: 6em;
+		display:inline-flex;
+		margin: 0.6em;
+
+	}
 
 /* Footer */
 
