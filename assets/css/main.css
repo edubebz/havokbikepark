@@ -1,11 +1,15 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
-/*
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+/*Color Palette
+#FCDD09 gold
+#528a42 green
+#DA121A red
+#f6e529 yellow
+#72ba5e light green
+#0b3312 dark green
 */
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -101,13 +105,8 @@ input, select, textarea {
 	}
 
 	body {
-<<<<<<< Updated upstream
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-=======
 		background-color: #ff0000;
 		background-image: linear-gradient(to top, #000000, #000000), url("../../images/bg.jpg");
->>>>>>> Stashed changes
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -384,7 +383,7 @@ input, select, textarea {
 	code {
 		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
-		border: solid 2px rgba(255, 255, 255, 0.125);
+		border: solid 2px rgba(255, 0, 0, 0.125);
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -408,11 +407,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-<<<<<<< Updated upstream
-		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-=======
 		border-bottom: solid 2px rgba(13, 77, 26, 0.676);
->>>>>>> Stashed changes
 		margin: 2.5em 0;
 	}
 
@@ -2806,7 +2801,7 @@ input, select, textarea {
 				}
 
 				ul.pagination li > .page.active {
-					background-color: #4c5c96;
+					background-color: #72ba5e;
 				}
 
 			ul.pagination li:first-child {
@@ -2974,7 +2969,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #4c5c96;
+			background-color: #72ba5e;
 			box-shadow: none;
 		}
 
@@ -2991,7 +2986,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #45558d;
+				background-color: #72ba5e;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -3066,11 +3061,7 @@ input, select, textarea {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-<<<<<<< Updated upstream
-			background-color: #353849;
-=======
 			background-color: #282b26;
->>>>>>> Stashed changes
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3141,11 +3132,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-<<<<<<< Updated upstream
-		background-color: rgba(53, 56, 73, 0.95);
-=======
 		background-color: rgba(82,138,66,0.4);
->>>>>>> Stashed changes
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3197,16 +3184,21 @@ input, select, textarea {
 				}
 
 				#header nav a[href="#menu"] {
+					animation: fadeInAnimation ease 2s;
+					animation-iteration-count: 1;
+					animation-fill-mode: forwards;
 					text-decoration: none;
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
+
 					border-radius: 5px;
 					box-shadow: inset 0 0 0 2px rgba(234, 255, 0, 0.381);
 					padding: 0 1.5em;
 					font-size: 2em;
 					margin-top: 0em;
+					opacity: 0;
 					text-shadow: #0b3312 1px 1px 2px;
 
 				}
@@ -3355,7 +3347,8 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #282b26;
+			/*text-shadow: #72ba5e 1px 1px 2px;*/
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3365,7 +3358,7 @@ input, select, textarea {
 		}
 
 		#menu h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px ;
 			padding-bottom: 1em;
 		}
 
@@ -3411,7 +3404,8 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #f6e529;
+						font-weight: bold;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3501,7 +3495,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(255, 0, 0, 0.125);
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
@@ -3702,18 +3696,12 @@ input, select, textarea {
 	}
 
 	.wrapper {
-<<<<<<< Updated upstream
-		background-color: #2e3141;
-		margin: 6.5em 0;
-=======
 		background-color: #000000;
 		margin: 0em 0;
->>>>>>> Stashed changes
 		position: relative;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before {
@@ -3769,68 +3757,24 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: #282b26;
 		}
 
-			.wrapper.style2:before, .wrapper.style2:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
-			}
-
-			.wrapper.style2:before {
-				box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
-			}
-
-			.wrapper.style2:after {
-				box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
-			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: #282b26;
 		}
 
-			.wrapper.style3:before, .wrapper.style3:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");
-			}
-
-			.wrapper.style3:before {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
-			}
-
-			.wrapper.style3:after {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
-			}
 
 		.wrapper.style4 {
-			background-color: #454858;
+			background-color: #282b26;
 		}
 
-			.wrapper.style4:before, .wrapper.style4:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23454858%3B' /%3E%3C/svg%3E");
-			}
-
-			.wrapper.style4:before {
-				box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
-			}
-
-			.wrapper.style4:after {
-				box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
-			}
 
 		.wrapper.style5 {
-			background-color: #4d5060;
+			background-color: #282b26;
 		}
 
-			.wrapper.style5:before, .wrapper.style5:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234d5060%3B' /%3E%3C/svg%3E");
-			}
-
-			.wrapper.style5:before {
-				box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
-			}
-
-			.wrapper.style5:after {
-				box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
-			}
 
 		.wrapper.style6 {
 			background-color: #555867;
@@ -3849,20 +3793,9 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #282b26;
 		}
 
-			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
-			}
-
-			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
-			}
-
-			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
-			}
 
 			.wrapper.spotlight .inner {
 				display: -moz-flex;
@@ -3910,43 +3843,19 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #3c4039;
 			}
 
-				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
-				}
-
-				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
-				}
-
-				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
-				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				background-color: #282b26;
 			}
-
-				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
-				}
-
-				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
-				}
-
-				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
-				}
 
 			.wrapper.spotlight.style4 {
 				background-color: #39477c;
 			}
 
 				.wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2339477c%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style4:before {
@@ -3958,35 +3867,33 @@ input, select, textarea {
 				}
 
 			.wrapper.spotlight.style5 {
-				background-color: #324072;
+				background-color: #0b3312;
 			}
 
 				.wrapper.spotlight.style5:before, .wrapper.spotlight.style5:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23324072%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style5:before {
-					box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
+					box-shadow: inset 0 -1px 0 0 #0b3312, 0 1px 0 0 #0b3312;
 				}
 
 				.wrapper.spotlight.style5:after {
-					box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
+					box-shadow: inset 0 -1px 0 0 #0b3312, 0 1px 0 0 #0b3312;
 				}
 
 			.wrapper.spotlight.style6 {
-				background-color: #2d3a69;
+				background-color: #0b3312;
 			}
 
 				.wrapper.spotlight.style6:before, .wrapper.spotlight.style6:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232d3a69%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style6:before {
-					box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
+					box-shadow: inset 0 -1px 0 0 #0b3312, 0 1px 0 0 #0b3312;
 				}
 
 				.wrapper.spotlight.style6:after {
-					box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
+					box-shadow: inset 0 -1px 0 0 #0b3312, 0 1px 0 0 #0b3312;
 				}
 
 		@media screen and (max-width: 980px) {
