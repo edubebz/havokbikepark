@@ -3456,7 +3456,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 0em 0 5em 0 ;
-		background-image: url("../../images/hoon3.png");
+		background-image: url("../../images/hoon4.png");
 		background-size: cover, cover;
 
 	}
@@ -3546,7 +3546,7 @@ input, select, textarea {
 			#banner {
 				padding: 1em 2em 8.25em 0 ;
 
-				background-image: url("../../images/hoon3.png");
+				background-image: url("../../images/hoon4.png");
 				background-size:cover,
  				cover;
 				background-position: center,
@@ -3630,13 +3630,33 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
-/* Transition */
-		#transition {
+/* Transitions */
+		#transition-1 {
 			background-image: url("../../images/havok-sign.png");
 			overflow: hidden;
 			max-width: 100%;
 			background-attachment: fixed;
+			min-width: 100%;
 			background-size: cover;
+
+		}
+		#transition-2 {
+			background-image: url("../../images/havok-sam-mainey.jpg");
+			overflow: hidden;
+			max-width: 100%;
+			min-width: 100%;
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+		}
+		#transition-3 {
+			background-image: url("../../images/havok-sam-mainey-2.jpg");
+			overflow: hidden;
+			max-width: 100%;
+			min-width: 100%;
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
 		}
 		#transition-image-top {
 			display: flex;
@@ -3681,7 +3701,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: rgba(0, 0, 0, 1);
-			background-image: url("../../images/hoon3.png");
+			background-image: url("../../images/hoon4.png");
 			background-size: cover,
  			cover;
 			background-position: center,
