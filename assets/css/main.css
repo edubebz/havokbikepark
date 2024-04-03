@@ -4298,7 +4298,9 @@ input, select, textarea {
 			background-repeat: no-repeat;
 
 			background-position: center left;
-
+		}
+		#transition-3{
+			background-position: 60%;
 		}
 
 			#footer .inner .copyright li:first-child {
