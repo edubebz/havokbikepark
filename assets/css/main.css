@@ -200,6 +200,9 @@ input, select, textarea {
 			#box-1, #box-2 {
 				margin-bottom: 1em;
 			}
+			#transition-1 {
+				background-image: url("../../images/bg.jpg");
+			}
 		}
 
 		@media screen and (max-width: 736px) {
