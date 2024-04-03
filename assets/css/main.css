@@ -4216,6 +4216,11 @@ input, select, textarea {
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
+		#transition-1{
+			background-size: 230%;
+			background-repeat: no-repeat;
+			background-position: center left;
+		}
 
 	}
 
@@ -4224,6 +4229,11 @@ input, select, textarea {
 		#footer {
 			margin-top: -4.75em;
 			padding-top: 4.75em;
+		}
+		#transition-1{
+			background-size: 230%;
+			background-repeat: no-repeat;
+			background-position: center left;
 		}
 		#transition-1{
 			background-size: cover;
@@ -4261,6 +4271,11 @@ input, select, textarea {
 
 			background-position: center left;
 
+		}
+		#transition-1{
+			background-size: 230%;
+			background-repeat: no-repeat;
+			background-position: center left;
 		}
 
 		#footer {
