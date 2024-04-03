@@ -3674,7 +3674,7 @@ input, select, textarea {
 			background-image: url("../../images/havok-sam-mainey.jpg");
 			overflow: hidden;
 			max-width: 100%;
-			min-width: 100%;
+			min-width: 80%;
 			background-attachment: fixed;
 			background-size: cover;
 			background-position: center;
@@ -4296,11 +4296,16 @@ input, select, textarea {
 		#transition-1{
 			background-size: 230%;
 			background-repeat: no-repeat;
-
 			background-position: center left;
 		}
+
+		#transition-2 {
+			background-position: 60%;
+		}
+
 		#transition-3{
 			background-position: 60%;
+			background-size: cover;
 		}
 
 			#footer .inner .copyright li:first-child {
