@@ -4209,14 +4209,17 @@ input, select, textarea {
 			background-size: 220%;
 			background-repeat: no-repeat;
 			background-position: left top;
+
 		}
 		#transition-2 {
 			background-position: 60%;
-			background-size: 200%;
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
 		#transition-3{
 			background-position: 60%;
-			background-size: 200%;
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
 	}
 
