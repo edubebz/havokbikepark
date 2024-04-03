@@ -4204,6 +4204,23 @@ input, select, textarea {
 					color: inherit;
 				}
 
+	@media screen and (max-width: 1440px) {
+		#transition-1{
+			background-size: 220%;
+			background-repeat: no-repeat;
+			background-position: left top;
+		}
+		#transition-2 {
+			background-position: 60%;
+			background-size: 200%;
+		}
+		#transition-3{
+			background-position: 60%;
+			background-size: 200%;
+		}
+	}
+
+
 	@media screen and (max-width: 1280px) {
 
 		#footer {
@@ -4266,12 +4283,8 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		#transition-1{
-			background-size: cover;
 
-			background-position: center left;
-
-		}
+	
 		#transition-1{
 			background-size: 230%;
 			background-repeat: no-repeat;
