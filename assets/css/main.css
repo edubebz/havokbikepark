@@ -4225,6 +4225,12 @@ input, select, textarea {
 			margin-top: -4.75em;
 			padding-top: 4.75em;
 		}
+		#transition-1{
+			background-size: cover;
+
+			background-position: center left;
+
+		}
 
 			#footer .inner {
 				padding: 3em 3em 1em 3em ;
@@ -4288,7 +4294,8 @@ input, select, textarea {
 		}
 
 		#transition-1{
-			background-size: cover;
+			background-size: 230%;
+			background-repeat: no-repeat;
 
 			background-position: center left;
 
