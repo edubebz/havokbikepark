@@ -293,7 +293,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out;
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(211, 255, 0, 0.59);
 				content: '\f105';
 				display: inline-block;
 				font-size: 1.25em;
@@ -4357,4 +4357,8 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+	}
+
+	#four {
+		margin-top: 4em;
 	}
