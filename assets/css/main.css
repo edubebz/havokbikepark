@@ -265,12 +265,15 @@ input, select, textarea {
 		a.special:not(.button) {
 			text-decoration: none;
 			border-bottom: 0;
-			display: block;
+			display: flex;
+			margin: 4em auto;
+			align-content: center;
+			justify-content: center;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
-			margin: 0 0 2em 0;
+
 			text-transform: uppercase;
 		}
 
@@ -4094,7 +4097,7 @@ input, select, textarea {
 
 	.pricing-boxes  {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		flex-wrap: wrap;
 		text-shadow:rgba(4, 23, 8, 0.876) 1px 1px 2px;
 		margin-bottom: 2em;
@@ -4374,7 +4377,11 @@ input, select, textarea {
 
 
 	#map {
-		margin-bottom: 1em;
+
+		width: 80%;
+		display: flex;
+		align-content: center;
+		margin: 0em auto 1em auto;
 
 	}
 
