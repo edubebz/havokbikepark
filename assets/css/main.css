@@ -2465,6 +2465,8 @@ input, select, textarea {
 			padding: 0;
 		}
 
+
+
 /* Icon */
 
 	.icon {
@@ -4142,6 +4144,12 @@ input, select, textarea {
 		  }
 	}
 
+	/* Rules */
+	.pricing-boxes > h2:nth-child(4) {
+		margin-top: 2em;
+	  }
+	  
+
 /* Footer */
 
 	#footer .inner {
@@ -4369,3 +4377,4 @@ input, select, textarea {
 		margin-bottom: 1em;
 
 	}
+
