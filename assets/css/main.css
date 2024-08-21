@@ -4385,3 +4385,19 @@ input, select, textarea {
 
 	}
 
+
+#park-map-container {
+	padding: 2% 10% 0% 10%;
+	justify-items: center;
+
+}
+#map-img {
+	display: inline-flex;
+	max-width: 100%;
+	height: auto;
+}
+#map-title {
+	display: flex;
+	font-size: 3em;
+	justify-content: center;
+}
