@@ -3203,6 +3203,9 @@ input, select, textarea {
 			}
 
 		#header nav {
+			animation: fadeInAnimation ease 2s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
