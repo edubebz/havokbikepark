@@ -120,6 +120,17 @@
 		height: 20em; /* Sets the image height */
 		width: auto;    /* Maintain aspect ratio */
 	}
+	@media screen and (max-width: 480px) {
+		#dig-crew-gallery {
+			margin: 0; /* Remove side margins on mobile */
+			padding: 0 1rem; /* Optional padding for breathing room */
+			justify-content: space-around; /* Adjust spacing if needed */
+		}
+		.dig-crew-img {
+			height:auto;
+			width: 30%;
+		}
+	}
 </style>
 
 			</section>
