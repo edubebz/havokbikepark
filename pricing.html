@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>HAVOK Bike Park - Pricing & Memberships</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+	<style>
+		/* Top Banner Styles */
+		#top-banner {
+			background-color: black;
+			text-align: center;
+			padding: 0.5em 0;
+		}
+
+		#top-banner a {
+			color: white;
+			display: inline-block;
+			margin: 0.5em 1em;
+			text-decoration: none;
+		}
+
+		#top-banner a:hover {
+			color: #0fc40f;
+		}
+
+		/* Responsive Pricing Grid Layout */
+		.pricing-container {
+			padding: 2em 15% 4em 15%;
+			box-sizing: border-box;
+			width: 100%;
+		}
+
+		.responsive-pricing-grid {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center; /* Centers boxes dynamically */
+			gap: 10%;
+			width: 100%;
+			margin-top: 2em;
+		}
+
+		.pricing-card {
+			padding: 2.5em;
+			border-radius: 8px;
+			width: 45%; /* Calculates to exactly 2 boxes per line with a 10% gap */
+			box-sizing: border-box;
+			margin-bottom: 3em;
+			
+			/* Centers text vertically and horizontally */
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		
+		/* Removing margin from last elements in cards to keep boxes tidy */
+		.pricing-card p:last-child {
+			margin-bottom: 0;
+		}
+
+		/* Mobile View Overrides */
+		@media screen and (max-width: 768px) {
+			.pricing-container {
+				padding: 2em 15%;
+			}
+
+			.responsive-pricing-grid {
+				flex-direction: column;
+				gap: 0;
+			}
+
+			.pricing-card {
+				width: 100%;
+				margin-bottom: 2em;
+			}
+		}
+
+		/* Footer Contact Layout */
+		.footer-contact {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+
+		.footer-contact .footer-left ul,
+		.footer-contact .footer-right ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.footer-contact .footer-left ul li,
+		.footer-contact .footer-right ul li {
+			margin-bottom: 0.2em;
+		}
+		
+		.nuanced-info {
+			text-align: center;
+			padding: 0 15%;
+			margin-top: 2em;
+			font-size: 1.1em;
+		}
+
+		.benefits-list {
+			list-style: none;
+			padding: 0;
+			margin: 1em 0 2em 0;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+	<div id="top-banner">
+		<a href="index.html">HOME</a>
+		<a href="map.html">PARK MAP</a>
+		<a href="pricing.html">PRICING & MEMBERSHIPS</a>
+		<a href="rules.html">PARK RULES</a>
+		<a href="events.html">EVENTS</a>
+	</div>
+
+	<div id="page-wrapper">
+		<header id="header" class="alt">
+    <h1>
+        <a href="index.html">
+            <img id="banner-logo" src="images/logo.png" alt="Havok Bike Park logo">
+        </a>
+    </h1>
+</header>
+
+		<section id="banner" style="background-image: url('images/havok_sign_face_on.JPG'); background-size:cover; background-position: center;">
+    <div class="inner" style="text-align: center; padding-top: 3em;">
+        <h2>Pricing & Memberships</h2>
+        <p>Flexible options built for every rider.</p>
+    </div>
+</section>
+
+			<div class="nuanced-info">
+				<p><br>
+					<strong>Single uplift runs will remain at £5 per run</strong> (payment is made directly to the Uplift crew).<br> 
+					Single runs will primarily be available on wet or quieter days when uplift is not guaranteed to operate continuously throughout the day. <br>Please note that uplift pricing may vary for special events.<br><br>
+					Please see our <b><a href="rules.html" style="color: #528a42; text-decoration: underline;">Park Rules page</a></b> to ensure you are eligible to ride before you arrive!
+				</p>
+			</div>
+
+			<div class="pricing-container">
+				<h2 class="major" style="text-align: center;">Day Passes</h2>
+				<div class="responsive-pricing-grid">
+					<div class="pricing-card" id="box-1">
+						<h2>Park Entry Passes</h2>
+						
+						<p>
+							<strong>Under 18:</strong> £10<br>
+							<strong>Over 18:</strong> £12<br>
+							<strong>E-Bike:</strong> £20<br><br>
+						</p>
+					</div>
+
+					<div class="pricing-card" id="box-2">
+						<h2>Uplift Day Passes</h2>
+						
+						<p>
+							<strong>Full Day:</strong> £45<br>
+							<strong>Full Day Member Price:</strong> £35<br><br>
+						</p>
+					</div>
+				</div>
+
+				<h2 class="major" style="text-align: center; margin-top: 1em;">Memberships</h2>
+				<div style="text-align: center; max-width: 800px; margin: 0 auto;">
+					<p>
+						Membership remains a huge part of what makes HAVOK special. It helps us demonstrate the strength of our community, supports future funding opportunities, and allows us to continue investing back into the park for everyone to enjoy.
+					</p>
+					<p><strong>Membership Benefits Include:</strong></p>
+					<ul class="benefits-list">
+						<li>👉 Discounted uplift day passes</li>
+						<li>👉 Merchandise discounts</li>
+						<li>👉 Early access to event tickets</li>
+						<li>👉 Exclusive midweek riding access</li>
+						<li>👉 Member-only ride sessions and events</li><br><br>
+					</ul>
+				</div>
+				
+				<div class="responsive-pricing-grid">
+					<div class="pricing-card" id="box-1">
+						<h2>Annual Memberships</h2>
+						
+						<p>
+							<strong>Under 18:</strong> £80<br>
+							<strong>Over 18:</strong> £100<br>
+							<strong>E-Bike:</strong> £150<br>
+							<strong>Family (2 adults + 2 under 18s):</strong> £240<br><br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="footer">
+			<div class="inner">
+				<div class="footer-contact">
+					<div class="footer-left">
+						<ul>
+							<li class="icon solid fa-home">
+								HAVOK Bike Park<br>
+								Station Parade<br>
+								Todmorden, OL14 8PU<br>
+							</li>
+							<li class="icon solid fa-phone">07480 129 324</li>
+						</ul>
+					</div>
+					<div class="footer-right">
+						<ul>
+							<li class="icon solid fa-envelope">enquiries@havokmtb.co.uk</li>
+							<li class="icon brands fa-facebook-f">
+								<a href="https://www.facebook.com/havokbikepark">Facebook</a>
+							</li>
+							<li class="icon brands fa-instagram">
+								<a href="https://www.instagram.com/havokbikepark/?hl=en">Instagram</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<ul class="copyright">
+					<li>&copy; HAVOK All rights reserved.</li>
+					<li>BebCo Designs</li>
+					<li><a href="assets/HAVOK-Privacy-Policy.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</section>
+	</div>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
