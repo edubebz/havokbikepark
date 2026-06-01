@@ -279,7 +279,7 @@ body.is-preload #banner p { opacity: 0; transform: translateX(0.5em); filter: bl
 	body, input, select, textarea { font-size: 12pt; }
 	#logo-top { height: 8em; width: 18em; }
 	h1.major, h2.major, h3.major, h4.major, h5.major, h6.major { font-size: 1.5em; }
-	#banner { padding: 1em 2em 8.25em 0; background-image: url("../../images/homepage_banner_1_mobile.jpeg"); background-size: cover, cover; background-position: center, center; margin-bottom: -6.5em; }
+	#banner { padding: 1em 2em 8.25em 0; background-image: url("../../images/index_banner_mobile.png"); background-size: cover, cover; background-position: center, center; margin-bottom: -6.5em; }
 	#wrapper > header { padding: 9em 0 6.25em 0; background-color: rgba(0, 0, 0, 1); background-image: url("../../images/hoon4.png"); background-size: cover, cover; background-position: center, 0% 30%; margin-bottom: -6.5em; }
 	#footer { background-color: rgba(1, 1, 1, 1); background-image: linear-gradient(to top, rgba(1,1,1,1), rgba(1,1,1,1)), url("../../images/bg.jpg"); background-size: auto, cover; background-position: center, center; margin-top: -6.5em; padding-top: 6.5em; }
 	#transition-1 { background-size: 230%; background-repeat: no-repeat; background-position: center left; }
