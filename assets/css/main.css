@@ -205,7 +205,7 @@ body.is-preload #banner p { opacity: 0; transform: translateX(0.5em); filter: bl
 /* Transitions */
 #transition-1 { background-image: url("../../images/havok_sign_face_on.JPG"); overflow: hidden; max-width: 100%; background-attachment: fixed; min-width: 100%; background-size: cover; }
 #transition-2 { background-image: url("../../images/havok-sam-mainey.jpg"); overflow: hidden; max-width: 100%; min-width: 80%; background-attachment: fixed; background-size: cover; background-position: center; }
-#transition-3 { background-image: url("../../images/havok-sam-mainey-2.jpg"); overflow: hidden; max-width: 100%; min-width: 100%; background-attachment: fixed; background-size: cover; background-position: center; }
+#transition-3 { background-image: url("../../images/group_1.JPG"); overflow: hidden; max-width: 100%; min-width: 100%; background-attachment: fixed; background-size: cover; background-position: center; }
 #transition-image-top, #transition-image-bottom { display: flex; max-width: 100%; }
 
 /* Wrappers & Spotlights */
