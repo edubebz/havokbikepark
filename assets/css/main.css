@@ -376,3 +376,25 @@ body.is-preload #banner p { opacity: 0; transform: translateX(0.5em); filter: bl
 @media screen and (max-width: 360px) {
 	.wrapper .inner, #footer .inner { padding: 2em 1.5em 0.1em 1.5em; }
 }
+/* Fix for zoomed-in transition images on mobile */
+@media screen and (max-width: 480px) {
+    #transition-1 {
+        background-size:contain;       /* Changed from 230% to cover */
+        background-repeat: no-repeat;
+        background-position: center;  /* Changed to center to match others */
+    }
+    
+    /* Keep your existing rules for transition-2 and transition-3 */
+    #transition-2 {
+        background-position: 60%;
+  
+    }
+
+    #transition-3 {
+        background-position: 60%;
+        background-size: contain;
+    }
+	.pricing-image {
+        display: none;
+	}
+}
