@@ -188,7 +188,7 @@ body.is-menu-visible #menu .inner { transform: translateY(0); opacity: 1; }
 /* ========================================= */
 /* Banner & Sections                         */
 /* ========================================= */
-#banner { padding: 0em 0 5em 0; background-image: url("../../images/index_banner.JPG"); background-size: cover, cover; }
+#banner { padding: 0em 0 5em 0; background-image: url("../../images/index_banner.png"); background-size: cover, cover; }
 #banner .inner { margin: 0 auto; padding-top: 10%; width: 30em; }
 #banner .logo { transition: opacity 2s ease, transform 1s ease; opacity: 1; margin: 0 0 1.3em 0; }
 #banner .logo .icon { border-radius: 100%; border: solid 2px rgba(255, 255, 255, 0.125); cursor: default; display: inline-block; font-size: 2em; height: 2.25em; line-height: 2.25em; text-align: center; width: 2.25em; }
